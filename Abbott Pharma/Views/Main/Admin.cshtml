@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Admin";
+    Layout = "_AdminLayout";
+}
+
+
+<link rel="stylesheet" href="~/css/Admin.css" asp-append-version="true"/>
+
+@model List<Abbott_Pharma.Models.Quote>
+
+<div class="content">
+    <section id="orders">
+        <h2>Quotes</h2>
+        <p>Manage all the quotes here.</p>
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered">
+                <thead class="table-primary">
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer Name</th>
+                        <th>Company</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Country</th>
+                        <th>State</th>
+                        <th>City</th>
+                        <th>Postal Code</th>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Comments</th>
+                        <th>Actions</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var quote in Model)
+                    {
+                        <tr>
+                            <td>@quote.Id</td>
+                            <td>@quote.FullName</td>
+                            <td>@quote.CompanyName</td>
+                            <td>@quote.Email</td>
+                            <td>@quote.Phone</td>
+                            <td>@quote.Country</td>
+                            <td>@quote.State</td>
+                            <td>@quote.City</td>
+                            <td>@quote.PostalCode</td>
+                            <td>@quote.ModelName</td>
+                            <td>@quote.Quantity</td>
+                            <td>@quote.Comments</td>
+                            <td>
+                                <a asp-controller="Main" asp-action="SendEmail" asp-route-id="@quote.Id" class="btn btn-primary btn-sm">Email</a>
+
+                                <a asp-controller="Main" asp-route-id="@quote.Id" asp-action="DeleteQuote" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this quote?');">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </section>
+</div>
+
+@if (TempData["SuccessQuote"] != null)
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: '@TempData["SuccessQuote"]',
+            timer: 3000,
+            showConfirmButton: false
+        });
+    </script>
+}
+

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Abbott Pharma.props" />
+</Project>

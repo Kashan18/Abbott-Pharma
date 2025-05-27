@@ -1,0 +1,110 @@
+﻿@model Abbott_Pharma.Models.Quote
+
+@{
+    ViewData["Title"] = "Quote";
+}
+
+<link href="/css/Quote.css" rel="stylesheet" asp-append-version="true" />
+
+<div class="formbold-main-wrapper">
+    <div class="formbold-form-wrapper">
+
+        <form action="Quote" method="post">
+
+            <div class="formbold-form-title">
+                <h2 class="">Request a Quote</h2>
+                <p>Share your requirements, and we’ll get back to you with a quote.</p>
+            </div>
+
+            <div class="formbold-input-flex">
+                <div>
+                    <label asp-for="FullName" class="formbold-form-label"></label>
+                    <input asp-for="FullName" class="formbold-form-input" />
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+                <div>
+                    <label asp-for="CompanyName" class="formbold-form-label"></label>
+                    <input asp-for="CompanyName" class="formbold-form-input" />
+                    <span asp-validation-for="CompanyName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="formbold-input-flex">
+                <div>
+                    <label asp-for="Email" class="formbold-form-label"></label>
+                    <input asp-for="Email" class="formbold-form-input" type="email" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div>
+                    <label asp-for="Phone" class="formbold-form-label"></label>
+                    <input asp-for="Phone" class="formbold-form-input" />
+                    <span asp-validation-for="Phone" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="formbold-input-flex">
+                <div>
+                    <label asp-for="Country" class="formbold-form-label"></label>
+                    <input asp-for="Country" class="formbold-form-input" />
+                    <span asp-validation-for="Country" class="text-danger"></span>
+                </div>
+                <div>
+                    <label asp-for="State" class="formbold-form-label"></label>
+                    <input asp-for="State" class="formbold-form-input" />
+                    <span asp-validation-for="State" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="formbold-input-flex">
+                <div>
+                    <label asp-for="City" class="formbold-form-label"></label>
+                    <input asp-for="City" class="formbold-form-input" />
+                    <span asp-validation-for="City" class="text-danger"></span>
+                </div>
+                <div>
+                    <label asp-for="PostalCode" class="formbold-form-label"></label>
+                    <input asp-for="PostalCode" class="formbold-form-input" />
+                    <span asp-validation-for="PostalCode" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="formbold-input-flex">
+                <div>
+                    <label asp-for="ModelName" class="formbold-form-label"></label>
+                    <input asp-for="ModelName" class="formbold-form-input" readonly />
+                    <span asp-validation-for="ModelName" class="text-danger"></span>
+                </div>
+                <div>
+                    <label asp-for="Quantity" class="formbold-form-label"></label>
+                    <input asp-for="Quantity" class="formbold-form-input" type="number" min="1" />
+                    <span asp-validation-for="Quantity" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="formbold-mb-3">
+                <label asp-for="Comments" class="formbold-form-label"></label>
+                <textarea asp-for="Comments" class="formbold-form-input" rows="4"></textarea>
+                <span asp-validation-for="Comments" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="formbold-btn">Submit Now</button>
+        </form>
+    </div>
+</div>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: '@TempData["SuccessMessage"]',
+            timer: 3000,
+            showConfirmButton: false
+        });
+    </script>
+}
+
+
+

@@ -1,0 +1,110 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+                        <div class="company-badge mb-4">
+                            Precision in Pharmaceutical Manufacturing
+                        </div>
+
+                        <h1 class="mb-6">
+                            Abbott
+                            <span class="accent-text">Pharma</span>
+                        </h1>
+
+                        <p class="mb-4 mb-md-5">
+                            Welcome to Abbott Pharma, a trusted leader in pharmaceutical equipment manufacturing. We specialize in high-performance Capsule Filling, Tablet Compression, and Liquid Filling Machines, designed for efficiency, precision, and compliance with industry standards.
+                        </p>
+
+                        <div class="hero-buttons">
+                            <a asp-controller="Main" asp-action="About" class="btn btn-primary me-0 me-sm-2 mx-1">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="hero-image" data-aos="zoom-out" data-aos-delay="300">
+                        <img src="~/images/banner.png" alt="Hero Image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row stats-row gy-4 mt-5" data-aos="fade-up" data-aos-delay="500">
+                <div class="col-lg-3 col-md-6">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="bi bi-building"></i> <!-- Factory Icon for Manufacturing Units -->
+                        </div>
+                        <div class="stat-content">
+                            <h4>Manufacturing Excellence</h4>
+                            <p class="mb-0">Advanced Engineering Facilities</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="bi bi-layers"></i> <!-- Layered Icon for Product Variants -->
+                        </div>
+                        <div class="stat-content">
+                            <h4>Wide Range</h4>
+                            <p class="mb-0">Capsule, Tablet & Liquid Filling Solutions</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="bi bi-shield-check"></i> <!-- Shield with Check Icon for Quality Assurance -->
+                        </div>
+                        <div class="stat-content">
+                            <h4>Certified Quality</h4>
+                            <p class="mb-0">GMP & ISO Compliant Machines</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="stat-item">
+                        <div class="stat-icon">
+                            <i class="bi bi-globe"></i> <!-- Globe Icon for Global Presence -->
+                        </div>
+                        <div class="stat-content">
+                            <h4>Global Presence</h4>
+                            <p class="mb-0">Trusted by Pharma Companies Worldwide</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+@if (TempData["Success"] != null)
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: '@TempData["Success"]',
+            timer: 3000,
+            showConfirmButton: false
+        });
+    </script>
+}

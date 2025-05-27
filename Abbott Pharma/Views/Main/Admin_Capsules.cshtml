@@ -1,0 +1,93 @@
+﻿@model List<Abbott_Pharma.Models.Capsule>
+@{
+    ViewData["Title"] = "Admin_Capsules";
+    Layout = "_AdminLayout";
+}
+
+<div class="content">
+    <section id="orders">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h2>Capsule Filling</h2>
+            <a class="btn btn-primary" asp-controller="Main" asp-action="AdminAddCp">
+                + Add Product
+            </a>
+        </div>
+        <p>Manage all the content of Capsule Filling section here.</p>
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered">
+                <thead class="table-primary">
+                    <tr>
+                        <th>Name</th>
+                        <th>Output</th>
+                        <th>Capsule Size Supported</th>
+                        <th>Material</th>
+                        <th>Dimensions</th>
+                        <th>Weight</th>
+                        <th>Action</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Output</td>
+                            <td>@item.Capsule_Size</td>
+                            <td>@item.Material</td>
+                            <td>@item.Dimensions</td>
+                            <td>@item.Weight</td>
+                            <td>
+                                <a class="btn btn-primary" asp-controller="Main" asp-action="AdminUpdateCp" asp-route-id="@item.Id">Update</a>
+                                <a class="btn btn-danger" asp-controller="Main" asp-action="deleteCapsule" asp-route-id="@item.Id" onclick="return confirm('Are you sure you want to delete this product?');">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </section>
+</div>
+
+
+@if (TempData["Success"] != null)
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: '@TempData["Success"]',
+            timer: 3000,
+            showConfirmButton: false
+        });
+    </script>
+}
+
+@if (TempData["Del"] != null)
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: '@TempData["Del"]',
+            timer: 3000,
+            showConfirmButton: false
+        });
+    </script>
+}
+
+@if (TempData["Update"] != null)
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: '@TempData["Update"]',
+            timer: 3000,
+            showConfirmButton: false
+        });
+    </script>
+}

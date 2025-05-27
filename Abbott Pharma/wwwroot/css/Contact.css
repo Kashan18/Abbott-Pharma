@@ -1,0 +1,159 @@
+﻿/* General Fixes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, rgba(13, 129, 253, 0.205) 50%, rgba(13, 131, 253, 0.02) 25%, transparent 50%);
+    min-height: 100vh;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    /*padding: 20px;*/
+}
+
+.main_d {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    margin-top: 60px;
+    width: 100%;
+    max-width: 1200px;
+    z-index: 1;
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+}
+
+/* Info Box & Contact Form - Glass Morphism */
+.info-box, .contact-form {
+    background: rgba(255, 255, 255, 0.5); /* Glass Effect with more transparency */
+    backdrop-filter: blur(15px); /* Softer Blur */
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+    /* Soft Radial Glow */
+    .info-box::before, .contact-form::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(13, 129, 253, 0.12) 10%, transparent 60%);
+        z-index: 0;
+    }
+
+    .info-box *, .contact-form * {
+        position: relative;
+        z-index: 1;
+    }
+
+/* Icons & Content Styling */
+.icon-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: rgba(13, 129, 253, 0.15); /* Lighter blue touch */
+    border-radius: 50%;
+    font-size: 24px;
+    color: #0d81fd;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.content h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Contact Form */
+form .form-control {
+    width: 100%;
+    padding: 13px 22px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.3); /* Lighter transparency */
+    font-weight: 500;
+    font-size: 16px;
+    color: #07074d;
+    outline: none;
+    resize: none;
+    transition: 0.3s;
+}
+
+    form .form-control:focus {
+        border-color: #5a5fcf;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.15);
+        background: white;
+    }
+
+/* Submit Button */
+button.btn {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 14px 25px;
+    border: none;
+    font-weight: 500;
+    background: linear-gradient(135deg, #5a5fcf, #4e54c8);
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+    button.btn:hover {
+        box-shadow: 0px 3px 15px rgba(90, 95, 207, 0.5);
+        transform: scale(1.05);
+    }
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+    .info-box, .contact-form {
+        padding: 20px;
+    }
+
+    .info-item {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .icon-box {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+}

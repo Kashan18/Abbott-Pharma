@@ -1,0 +1,61 @@
+﻿@model List<Abbott_Pharma.Models.Tablet>
+@{
+    ViewData["Title"] = "Tablets";
+}
+<link rel="stylesheet" href="/css/Products.css">
+
+<section id="tablets" class="section py-5 bg-light">
+    <div class="container custom-container" data-aos="fade-up">
+        <h2 class="section-title text-primary text-center">Tablet Compression Machines</h2>
+        <p class="section-description text-muted text-center">
+            Discover our advanced tablet compression machines designed for precision and high production capacity.
+        </p>
+
+
+
+        @foreach (var i in Model)
+        {
+            <div class="row product-card shadow-lg rounded bg-white border border-primary align-items-center p-4 mb-4">
+                <div class="col-md-4 text-center">
+                    <img src="~/TabletImages/@i.Image" alt="@i.Image" class="img-fluid rounded">
+                </div>
+                <div class="col-md-8">
+                    <h3 class="text-secondary">@i.ModelNumber</h3>
+                    <p><strong>Dies:</strong> @i.Dies</p>
+                    <p><strong>Max Pressure:</strong> @i.MaxPressure</p>
+                    <p><strong>Max Diameter of Tablet:</strong> @i.MaxDiameter</p>
+                    <p><strong>Max Depth of Fill:</strong> @i.MaxDepth</p>
+                    <p><strong>Production Capacity:</strong> @i.ProductionCapacity</p>
+                    <p><strong>Machine Size:</strong> @i.MachineSize</p>
+                    <p><strong>Net Weight:</strong> @i.NetWeight</p>
+
+                    <!-- Corrected Button -->
+                    @if (Context.Session.GetString("Role") == "User" || Context.Session.GetString("Role") == "Admin")
+                    {
+                        <a asp-action="Quote" asp-controller="main" asp-route-productId="@i.Id" asp-route-category="Tablet" class="btn btn-primary">Inquire Now</a>
+                    }
+                    else
+                    {
+                        <button type="button" class="btn btn-primary" onclick="showLoginAlert()">Inquire Now</button>
+                    }
+                </div>
+            </div>
+        }
+
+
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function showLoginAlert() {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Login Required',
+            text: 'Please login to proceed with the inquiry.',
+            confirmButtonText: 'OK'
+        });
+    }
+</script>
+
+

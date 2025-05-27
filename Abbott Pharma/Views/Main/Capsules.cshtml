@@ -1,0 +1,51 @@
+﻿@model List<Abbott_Pharma.Models.Capsule>
+@{
+    ViewData["Title"] = "Capsules";
+}
+<link rel="stylesheet" href="/css/Products.css">
+
+<section id="capsules" class="section py-5 bg-light">
+    <div class="container custom-container" data-aos="fade-up">
+        <h2 class="section-title text-primary text-center">Capsule / Encapsulation</h2>
+        <p class="section-description text-muted text-center">Explore our high-performance capsule filling solutions designed for efficiency and precision.</p>
+
+        @foreach (var data in Model)
+        {
+            <div class="row product-card shadow-lg rounded bg-white border border-primary align-items-center p-4 mb-4">
+                <div class="col-md-4 text-center">
+                    <img src="~/CapsuleImages/@data.Image" alt="@data.Image" class="img-fluid rounded">
+                </div>
+                <div class="col-md-8">
+                    <h3 class="text-secondary"> @data.Name</h3>
+                    <p><strong>Output:</strong> @data.Output</p>
+                    <p><strong>Capsule Sizes Supported:</strong> @data.Capsule_Size</p>
+                    <p><strong>Material:</strong> @data.Material</p>
+                    <p><strong>Dimensions:</strong> @data.Dimensions</p>
+                    <p><strong>Weight:</strong> @data.Weight</p>
+
+                    @if (Context.Session.GetString("Role") == "User" || Context.Session.GetString("Role") == "Admin")
+                    {
+                        <a asp-action="Quote" asp-controller="main" asp-route-productId="@data.Id" asp-route-category="Capsule" class="btn btn-primary">Inquire Now</a>
+                    }
+                    else
+                    {
+                        <button type="button" class="btn btn-primary" onclick="showLoginAlert()">Inquire Now</button>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function showLoginAlert() {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Login Required',
+            text: 'Please login to proceed with the inquiry.',
+            confirmButtonText: 'OK'
+        });
+    }
+</script>
+

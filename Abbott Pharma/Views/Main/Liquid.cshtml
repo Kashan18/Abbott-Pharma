@@ -1,0 +1,84 @@
+﻿@model List<Abbott_Pharma.Models.Liquid>
+@{
+    ViewData["Title"] = "Liquid Filling";
+}
+<link rel="stylesheet" href="/css/Products.css">
+
+<section id="liquid-filling" class="section py-5 bg-light">
+    <div class="container custom-container" data-aos="fade-up">
+        <h2 class="section-title text-primary text-center">Liquid Filling Machines</h2>
+        <p class="section-description text-muted text-center">
+            Explore our high-performance liquid filling solutions designed for precision, efficiency, and hygiene.
+        </p>
+
+        @foreach (var data2 in Model)
+        {
+            <div class="row product-card shadow-lg rounded bg-white border border-primary align-items-center p-4 mb-4">
+                <div class="col-md-4 text-center">
+                    <img src="~/LiquidImages/@data2.Image" alt="@data2.Image" class="img-fluid rounded">
+                </div>
+                <div class="col-md-8">
+                    <h3 class="text-secondary"> @data2.Name</h3>
+                    <p><strong>Air Pressure:</strong> @data2.Air_Pressure</p>
+                    <p><strong>Air Volume:</strong> @data2.Air_Volume</p>
+                    <p><strong>Filling Speed:</strong> @data2.Filling_Speed</p>
+                    <p><strong>Filling Range:</strong> @data2.Filling_Range</p>
+
+                    <!-- Get a Quote Button -->
+                    @if (Context.Session.GetString("Role") == "User" || Context.Session.GetString("Role") == "Admin")
+                    {
+                        <a asp-action="Quote" asp-controller="main" asp-route-productId="@data2.Id" asp-route-category="Liquid" class="btn btn-primary">Inquire Now</a>
+                    }
+                    else
+                    {
+                        <button type="button" class="btn btn-primary" onclick="showLoginAlert()">Inquire Now</button>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</section>
+
+        <!-- Machine 1: DHF Double Headed Filter -->
+        
+
+        @* <!-- Machine 2: FL-800 Automatic Liquid Filler -->
+        <div class="row product-card shadow-lg rounded bg-white border border-primary align-items-center p-4 mb-4">
+            <div class="col-md-4 text-center">
+                <img src="~/Images/FL800.jpg" alt="FL-800 Automatic Liquid Filler" class="img-fluid rounded">
+            </div>
+            <div class="col-md-8">
+                <h3 class="text-secondary">FL-800 Automatic Liquid Filler</h3>
+                <p><strong>Air Pressure:</strong> 0.5 - 0.8 MPa</p>
+                <p><strong>Air Volume:</strong> 0.3 - 0.7 m³/min</p>
+                <p><strong>Filling Speed:</strong> 30 - 100 bottles per minute</p>
+                <p><strong>Filling Range:</strong> 100 - 1000 ml</p>
+            </div>
+        </div>
+
+        <!-- Machine 3: LFM-3000 High-Speed Liquid Filler -->
+        <div class="row product-card shadow-lg rounded bg-white border border-primary align-items-center p-4 mb-4">
+            <div class="col-md-4 text-center">
+                <img src="~/Images/LFM3000.jpg" alt="LFM-3000 High-Speed Liquid Filler" class="img-fluid rounded">
+            </div>
+            <div class="col-md-8">
+                <h3 class="text-secondary">LFM-3000 High-Speed Liquid Filler</h3>
+                <p><strong>Air Pressure:</strong> 0.6 - 1.0 MPa</p>
+                <p><strong>Air Volume:</strong> 0.5 - 1.0 m³/min</p>
+                <p><strong>Filling Speed:</strong> 100 - 300 bottles per minute</p>
+                <p><strong>Filling Range:</strong> 200 - 5000 ml</p>
+            </div>
+        </div> *@
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function showLoginAlert() {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Login Required',
+            text: 'Please login to proceed with the inquiry.',
+            confirmButtonText: 'OK'
+        });
+    }
+</script>

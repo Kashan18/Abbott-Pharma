@@ -1,0 +1,52 @@
+﻿@model Abbott_Pharma.Models.User
+@{
+    ViewData["Title"] = "Login";
+}
+<link href="/css/Login.css" rel="stylesheet" asp-append-version="true" />
+
+<div class="main">
+    <div class="form-container">
+        <form method="post" action="Login">
+            <h2>Login</h2>
+            <input type="email" placeholder="Email" asp-for="Email">
+            <span asp-validation-for="Email" class="text-danger"></span>
+
+            <input type="password" placeholder="Password" asp-for="Password">
+            <span asp-validation-for="Password" class="text-danger"></span>
+
+            <button type="submit">Login</button>
+        </form>
+        <p class="toggle-link">
+            Don't have an account?
+            <a asp-controller="Main" asp-action="Register">Register</a>
+        </p>
+
+        @if (TempData["Error"] != null)
+        {
+            <p class="text-danger">@TempData["Error"]</p>
+        }
+
+        @*if (TempData["ErrorMessage"] != null)
+        {
+            <script>
+                alert('@TempData["ErrorMessage"]');
+            </script>
+        }*@
+
+    </div>
+</div>
+
+
+@if (TempData["Success"] != null)
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: '@TempData["Success"]',
+            timer: 3000,
+            showConfirmButton: false
+        });
+    </script>
+}

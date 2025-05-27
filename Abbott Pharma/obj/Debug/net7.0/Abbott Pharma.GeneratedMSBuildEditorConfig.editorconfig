@@ -1,0 +1,139 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Abbott_Pharma
+build_property.RootNamespace = Abbott_Pharma
+build_property.ProjectDir = C:\Users\KASHAN\source\repos\Abbott Pharma\Abbott Pharma\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\KASHAN\source\repos\Abbott Pharma\Abbott Pharma
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/AdminAddCp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZG1pbkFkZENwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/AdminAddLq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZG1pbkFkZExxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/AdminAddTb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZG1pbkFkZFRiLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/AdminUpdateCp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZG1pblVwZGF0ZUNwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/AdminUpdateLq.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZG1pblVwZGF0ZUxxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/AdminUpdateTb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZG1pblVwZGF0ZVRiLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/Admin_Capsules.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZG1pbl9DYXBzdWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/Admin_Job.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZG1pbl9Kb2IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/Admin_Liquid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZG1pbl9MaXF1aWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/Admin_Tablet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZG1pbl9UYWJsZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/Admin_Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxBZG1pbl9Vc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/Capsules.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxDYXBzdWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/Career.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxDYXJlZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/Contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxDb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/Liquid.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxMaXF1aWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/Quote.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxRdW90ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Main/Tablets.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxUYWJsZXRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/KASHAN/source/repos/Abbott Pharma/Abbott Pharma/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-54ed1guar5

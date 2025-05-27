@@ -1,0 +1,103 @@
+﻿@model Abbott_Pharma.Models.Career
+@{
+    ViewData["Title"] = "Career";
+}
+<link rel="stylesheet" href="/css/Career.css" asp-append-version="true">
+
+<section id="career">
+    <div class="container">
+        <h2 class="section-title">Join Our Team</h2>
+        <p class="section-description">
+            Be a part of our growing pharmaceutical machinery industry. Explore career opportunities with us.
+        </p>
+
+        <div class="career-container">
+            <!-- Left Side - Career Benefits -->
+            <div class="career-info">
+                <h3>Why Work With Us?</h3>
+                <ul class="career-benefits">
+                    <li><i class="bi bi-check-circle-fill"></i> Competitive Salaries</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Growth & Development Opportunities</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Work with Industry Experts</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Global Career Exposure</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Employee Wellness Programs</li>
+                </ul>
+            </div>
+
+            <!-- Right Side - Apply Form -->
+            <div class="career-form">
+                <h3>Apply Now</h3>
+                <form action="Career" method="POST" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" id="fullName" asp-for="FullName">
+                        <span asp-validation-for="FullName" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" asp-for="Email">
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" asp-for="Phone">
+                        <span asp-validation-for="Phone" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="position">Position Applying For</label>
+                        <select id="position" asp-for="Position">
+                            <option value="" selected disabled>Select Position</option>
+                            <option value="Engineer">Mechanical Engineer</option>
+                            <option value="Technician">Machine Technician</option>
+                            <option value="Sales">Sales Executive</option>
+                            <option value="Quality">Quality Control Specialist</option>
+                        </select>
+                        <span asp-validation-for="Position" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="resume">Upload Resume</label>
+                        <input type="file" id="resume" name="resume" class="form-control">
+                        <span class="text-danger">@Html.ValidationMessage("ResumePath")</span>
+                    </div>
+                    <button type="submit" class="btn-submit">Submit Application</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: '@TempData["SuccessMessage"]',
+            timer: 3000,
+            showConfirmButton: false
+        });
+    </script>
+
+}
+
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            icon: 'error',
+            title: 'Sorry',
+            text: '@TempData["ErrorMessage"]',
+            timer: 3000,
+            showConfirmButton: false
+        });
+    </script>
+}

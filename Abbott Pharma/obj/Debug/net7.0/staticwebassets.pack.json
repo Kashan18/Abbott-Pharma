@@ -1,0 +1,477 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Abbott Pharma.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Abbott Pharma.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\CapsuleImages\\2a4c8654-ddfc-4327-bdf1-c98dbcc5bad6_Blateco.jpeg",
+      "PackagePath": "staticwebassets\\CapsuleImages\\2a4c8654-ddfc-4327-bdf1-c98dbcc5bad6_Blateco.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\CapsuleImages\\2e35d179-097e-4e61-ab1c-6298dc3bae30_Blateco.jpeg",
+      "PackagePath": "staticwebassets\\CapsuleImages\\2e35d179-097e-4e61-ab1c-6298dc3bae30_Blateco.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\CapsuleImages\\6878d69a-88c5-4cab-a084-3dbda058dc43_DHF.jpg",
+      "PackagePath": "staticwebassets\\CapsuleImages\\6878d69a-88c5-4cab-a084-3dbda058dc43_DHF.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\CarrerDocs\\3e8ddec6-1814-46eb-b238-0da05e175bf3_Kashan.pdf",
+      "PackagePath": "staticwebassets\\CarrerDocs\\3e8ddec6-1814-46eb-b238-0da05e175bf3_Kashan.pdf"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\03b92743-9be2-4728-8428-268d52e583a9.jpg",
+      "PackagePath": "staticwebassets\\Images\\03b92743-9be2-4728-8428-268d52e583a9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\3b618c8d-0ca4-4ab5-abc8-4694c67f5c37.jpg",
+      "PackagePath": "staticwebassets\\Images\\3b618c8d-0ca4-4ab5-abc8-4694c67f5c37.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\47d5a016-6068-4331-85f3-65b6a1b725f0.jpg",
+      "PackagePath": "staticwebassets\\Images\\47d5a016-6068-4331-85f3-65b6a1b725f0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\8560fc17-6979-4656-bc39-190fe6e4b3d3.jpg",
+      "PackagePath": "staticwebassets\\Images\\8560fc17-6979-4656-bc39-190fe6e4b3d3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\893855f6-cc81-44f9-bc12-9c3be75b738f.jpg",
+      "PackagePath": "staticwebassets\\Images\\893855f6-cc81-44f9-bc12-9c3be75b738f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\9177e61d-248a-4a95-b5bb-f08eb249c155.jpg",
+      "PackagePath": "staticwebassets\\Images\\9177e61d-248a-4a95-b5bb-f08eb249c155.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\9b9ec4cd-478c-4251-b20b-8d0324fe81c1.jpg",
+      "PackagePath": "staticwebassets\\Images\\9b9ec4cd-478c-4251-b20b-8d0324fe81c1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\About1.jpeg",
+      "PackagePath": "staticwebassets\\Images\\About1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\About1.jpg",
+      "PackagePath": "staticwebassets\\Images\\About1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\About1.webp",
+      "PackagePath": "staticwebassets\\Images\\About1.webp"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\About2.jpg",
+      "PackagePath": "staticwebassets\\Images\\About2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\About2.webp",
+      "PackagePath": "staticwebassets\\Images\\About2.webp"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\Back.png",
+      "PackagePath": "staticwebassets\\Images\\Back.png"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\Blateco.jpeg",
+      "PackagePath": "staticwebassets\\Images\\Blateco.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\CP501.jpg",
+      "PackagePath": "staticwebassets\\Images\\CP501.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\Capsule-It.jpg",
+      "PackagePath": "staticwebassets\\Images\\Capsule-It.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\CapsuleCn.jpg",
+      "PackagePath": "staticwebassets\\Images\\CapsuleCn.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\DHF.jpg",
+      "PackagePath": "staticwebassets\\Images\\DHF.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\FL800.jpg",
+      "PackagePath": "staticwebassets\\Images\\FL800.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\LFM3000.jpg",
+      "PackagePath": "staticwebassets\\Images\\LFM3000.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\Logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\Logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\Logo.png",
+      "PackagePath": "staticwebassets\\Images\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\Partner1.png",
+      "PackagePath": "staticwebassets\\Images\\Partner1.png"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\Partner2.png",
+      "PackagePath": "staticwebassets\\Images\\Partner2.png"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\Partner3.png",
+      "PackagePath": "staticwebassets\\Images\\Partner3.png"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\Partner4.png",
+      "PackagePath": "staticwebassets\\Images\\Partner4.png"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\TDP Single Punch.jpg",
+      "PackagePath": "staticwebassets\\Images\\TDP Single Punch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\VSP25.jpg",
+      "PackagePath": "staticwebassets\\Images\\VSP25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\banner.png",
+      "PackagePath": "staticwebassets\\Images\\banner.png"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\ce2654c2-bcb0-4f35-b744-a4f61c1a0fb2.jpg",
+      "PackagePath": "staticwebassets\\Images\\ce2654c2-bcb0-4f35-b744-a4f61c1a0fb2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\cec4ca76-be06-4f54-b0a1-9eb788327e98.jpg",
+      "PackagePath": "staticwebassets\\Images\\cec4ca76-be06-4f54-b0a1-9eb788327e98.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\Images\\f5d5f5dc-a898-4701-9c2f-c4265a6e59e2.jpg",
+      "PackagePath": "staticwebassets\\Images\\f5d5f5dc-a898-4701-9c2f-c4265a6e59e2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\LiquidImages\\80e0b5cc-13fd-4967-ab67-eb30b079cc04_DHF.jpg",
+      "PackagePath": "staticwebassets\\LiquidImages\\80e0b5cc-13fd-4967-ab67-eb30b079cc04_DHF.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\LiquidImages\\8409ea61-85b1-4e1a-9a83-d4753e0646fc_DHF.jpg",
+      "PackagePath": "staticwebassets\\LiquidImages\\8409ea61-85b1-4e1a-9a83-d4753e0646fc_DHF.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\LiquidImages\\e6d9adad-c505-4896-b341-1eb28a6e6cb6_TDP Single Punch.jpg",
+      "PackagePath": "staticwebassets\\LiquidImages\\e6d9adad-c505-4896-b341-1eb28a6e6cb6_TDP Single Punch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\TabletImages\\349a2e05-efe6-4d19-b24a-9a963f241e22_TDP Single Punch.jpg",
+      "PackagePath": "staticwebassets\\TabletImages\\349a2e05-efe6-4d19-b24a-9a963f241e22_TDP Single Punch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\TabletImages\\47f65b32-0c8f-46a1-80d3-d210a1a26e49_TDP Single Punch.jpg",
+      "PackagePath": "staticwebassets\\TabletImages\\47f65b32-0c8f-46a1-80d3-d210a1a26e49_TDP Single Punch.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\TabletImages\\7c13d610-de2f-4455-a132-bb8a60b73581_FL800.jpg",
+      "PackagePath": "staticwebassets\\TabletImages\\7c13d610-de2f-4455-a132-bb8a60b73581_FL800.jpg"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\css\\About.css",
+      "PackagePath": "staticwebassets\\css\\About.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\css\\Admin.css",
+      "PackagePath": "staticwebassets\\css\\Admin.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\css\\Admin_p.css",
+      "PackagePath": "staticwebassets\\css\\Admin_p.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\css\\Career.css",
+      "PackagePath": "staticwebassets\\css\\Career.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\css\\Contact.css",
+      "PackagePath": "staticwebassets\\css\\Contact.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\css\\Main.css",
+      "PackagePath": "staticwebassets\\css\\Main.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\css\\Product.css",
+      "PackagePath": "staticwebassets\\css\\Product.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\css\\Quote.css",
+      "PackagePath": "staticwebassets\\css\\Quote.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\css\\Register.css",
+      "PackagePath": "staticwebassets\\css\\Register.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\js\\Main.js",
+      "PackagePath": "staticwebassets\\js\\Main.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\KASHAN\\source\\repos\\Abbott Pharma\\Abbott Pharma\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Abbott Pharma.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Abbott Pharma.props",
+      "PackagePath": "build\\Abbott Pharma.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Abbott Pharma.props",
+      "PackagePath": "buildMultiTargeting\\Abbott Pharma.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Abbott Pharma.props",
+      "PackagePath": "buildTransitive\\Abbott Pharma.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

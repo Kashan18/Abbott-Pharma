@@ -1,0 +1,104 @@
+﻿@model List<Abbott_Pharma.Models.Tablet>
+
+@{
+    ViewData["Title"] = "Admin_Tablet";
+    Layout = "_AdminLayout";
+}
+
+
+
+
+
+<div class="content">
+    <section id="orders">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+            <h2>Tablet Compressing</h2>
+            <a class="btn btn-primary" asp-controller="Main" asp-action="AdminAddTb">
+                + Add Product
+            </a>
+        </div>
+        <p>Manage all the content of Tablet Compressing section here.</p>
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered">
+                <thead class="table-primary">
+                    <tr>
+                        <th>Name</th>
+                        <th>Dies</th>
+                        <th>Max Pressure (kN)</th>
+                        <th>Max Diameter (mm)</th>
+                        <th>Max Depth (mm)</th>
+                        <th>Production Capacity</th>
+                        <th>Machine Size</th>
+                        <th>Net Weight (kg)</th>
+                        <th>Action</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.ModelNumber</td>
+                            <td>@item.Dies</td>
+                            <td>@item.MaxPressure</td>
+                            <td>@item.MaxDiameter</td>
+                            <td>@item.MaxDepth</td>
+                            <td>@item.ProductionCapacity</td>
+                            <td>@item.MachineSize</td>
+                            <td>@item.NetWeight</td>
+                            <td>
+                                <a class="btn btn-primary" asp-controller="Main" asp-action="AdminUpdateTb" asp-route-id="@item.Id">Update</a>
+                                <a class="btn btn-danger" asp-controller="Main" asp-action="deleteTablet" asp-route-id="@item.Id" onclick="return confirm('Are you sure you want to delete this product?');">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </section>
+</div>
+
+
+@if (TempData["Success"] != null)
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: '@TempData["Success"]',
+            timer: 3000,
+            showConfirmButton: false
+        });
+    </script>
+}
+
+@if (TempData["Del"] != null)
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: '@TempData["Del"]',
+            timer: 3000,
+            showConfirmButton: false
+        });
+    </script>
+}
+
+@if (TempData["Update"] != null)
+{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            text: '@TempData["Update"]',
+            timer: 3000,
+            showConfirmButton: false
+        });
+    </script>
+}
+
+

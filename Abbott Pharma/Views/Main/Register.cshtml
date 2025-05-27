@@ -1,0 +1,35 @@
+﻿@model Abbott_Pharma.Models.User
+@{
+    ViewData["Title"] = "Register";
+}
+
+<link rel="stylesheet" href="/css/Register.css" asp-append-version="true">
+
+<div class="main">
+<div class="form-container">
+    <form method="post" action="Register">
+    <h2>Register</h2>
+    <input type="text" placeholder="Full Name" asp-for="FullName">
+            <span asp-validation-for="FullName" class="text-danger"></span>
+
+    <input type="email" placeholder="Email" asp-for="Email">
+            <span asp-validation-for="Email" class="text-danger"></span>
+
+    <input type="password" placeholder="Password" asp-for="Password">
+            <span asp-validation-for="Password" class="text-danger"></span>
+
+    <button>Register</button>
+        </form>
+    <p class="login-link">Already have an account? <a asp-controller="Main" asp-action="Login">Login</a></p>
+
+        @if (TempData["Error"] != null)
+        {
+            <p class="text-danger">@TempData["Error"]</p>
+        }
+
+</div>
+</div>
+
+
+
+

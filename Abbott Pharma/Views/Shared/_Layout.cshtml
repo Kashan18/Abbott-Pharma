@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Abbott_Pharma</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Main.css" asp-append-version="true"/>
+
+    <link rel="shortcut icon" type="image/png" href="~/images/logo.jpg" />
+
+    <script src="~/js/main.js" asp-append-version="true"></script>
+
+    <!-- Vendor CSS Files -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    @* <link href="~/css/main.css" rel="stylesheet" /> *@
+
+    <style>
+            .footer-link {
+        color: #222;
+        text-decoration: none;
+        display: block;
+        margin: 5px 0;
+        transition: color 0.3s ease;
+    }
+    .footer-link:hover {
+        color: #0056D2;
+    }
+    .social-icon {
+        margin-right: 15px;
+        color: #0056D2;
+        font-size: 20px;
+        text-decoration: none;
+        transition: opacity 0.3s ease;
+    }
+    .social-icon:hover {
+        opacity: 0.7;
+    }
+
+    </style>
+</head>
+<body>
+    <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+            <a asp-controller="Main" asp-action="home" class="logo d-flex align-items-center me-auto me-xl-0">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                @* <img src="assets/img/logo.png" alt="">  *@
+                <h1 class="sitename">Abbott Pharma</h1>
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a asp-controller="Main" asp-action="Home">Home</a></li>
+                    <li><a asp-controller="Main" asp-action="About">About</a></li>
+                    <li class="dropdown">
+                        <a asp-controller="Main" asp-action="Tablets"><span>Products</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a asp-controller="Main" asp-action="Tablets">Tablets</a></li>
+                            <li><a asp-controller="Main" asp-action="Capsules">Capsules/Encapsulation</a></li>
+                            <li><a asp-controller="Main" asp-action="Liquid">Liquid Filling</a></li>
+                        </ul>
+                    </li
+                    <li><a asp-controller="Main" asp-action="Contact">Contact Us</a></li>
+                    <li><a asp-controller="Main" asp-action="Career">Career</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <a class="btn-getstarted" asp-controller="Main"
+               asp-action="@(Context.Session.GetString("Email") != null ? "Logout" : "Register")">
+                @(Context.Session.GetString("Email") != null ? "Logout" : "Register")
+            </a>
+
+        </div>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <footer style="background: #E6F0FF; padding: 50px 0; color: #222; text-align: center; font-family: Arial, sans-serif;">
+        <div class="container" style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between; text-align: left;">
+
+            <!-- Company Info -->
+            <div class="footer-section" style="flex: 1; min-width: 250px; margin-bottom: 20px;">
+                <h2 style="color: #0056D2; font-size: 24px;">Abbott Pharma</h2>
+                <p style="max-width: 300px; margin-top: 20px;">Trusted leader in pharmaceutical equipment manufacturing, specializing in high-performance capsule filling, tablet compression, and liquid filling machines.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-section" style="flex: 1; min-width: 250px; margin-bottom: 20px; margin-left:60px;">
+                <h3 style="color: #0056D2; font-size: 20px;">Quick Links</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a class="footer-link" style="margin-top: 10px;" asp-controller="Main" asp-action="Home">Home</a></li>
+                    <li><a class="footer-link" asp-controller="Main" asp-action="About">About</a></li>
+                    <li><a class="footer-link" asp-controller="Main" asp-action="Tablets">Products</a></li>
+                    <li><a class="footer-link" asp-controller="Main" asp-action="Contact">Contact Us</a></li>
+                    <li><a class="footer-link" asp-controller="Main" asp-action="Career">Career</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-section" style="flex: 1; min-width: 250px; margin-bottom: 20px;">
+                <h3 style="color: #0056D2; font-size: 20px; margin-top: 10px;">Contact Us</h3>
+                <p>📍 XYZ Street, Karachi, Pakistan</p>
+                <p>📞 +92 300 1234567</p>
+                <p>📧 info@abbottpharma.com</p>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div style="text-align: center; margin-top: 30px; border-top: 1px solid #ccc; padding-top: 15px; font-size: 14px;">
+            © 2025 Abbott Pharma. All rights reserved.
+        </div>
+    </footer>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+
+    <!-- Main JavaScript File -->
+    <script src="~/js/main.js" asp-append-version="true"></script>
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
